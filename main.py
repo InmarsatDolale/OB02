@@ -34,7 +34,7 @@ admin1 = Admin(2, 'Мария', 'Администратор', 'Высокий')
 user2 = User(3,'Иван', 'Стандартный')
 admin2 = Admin(4,'Егор','Администратор','Высокий')
 
-# Вызов методов класса User
+
 print(user1.user_id())
 print(user1.user_name())
 print(user1.user_access_level())
@@ -43,8 +43,6 @@ print(user2.user_id())
 print(user2.user_name())
 print(user2.user_access_level())
 
-
-# Вызов методов класса Admin
 print(admin1.user_id())
 print(admin1.user_name())
 print(admin1.user_access_level())
@@ -52,7 +50,6 @@ print(admin1.user_access_level())
 print(admin2.user_id())
 print(admin2.user_name())
 print(admin2.user_access_level())
-
 
 print(admin2.get_admin_level())
 print(admin2.add_user())
